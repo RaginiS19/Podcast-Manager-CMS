@@ -71,6 +71,6 @@ All in one organized platform.
 
  ### These are the key dependencies:
 
-Microsoft.EntityFrameWorkCore
-Microsoft.EntityFrameWorkCore.Tools
-Microsoft.EntityFrameWorkCore.SqlServer
+- Microsoft.EntityFrameWorkCore
+- Microsoft.EntityFrameWorkCore.Tools
+- Microsoft.EntityFrameWorkCore.SqlServer
