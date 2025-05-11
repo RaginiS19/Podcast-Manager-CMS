@@ -42,7 +42,7 @@ All in one organized platform.
 - SQL Server Database
 
 ### Database Schema
-```mermaid
+Mermaid
 ER Diagram
     PODCAST ||--o{ EPISODE : "1-to-Many"
     EPISODE }|--|| GUEST : "Many-to-Many"
