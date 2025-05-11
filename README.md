@@ -42,10 +42,11 @@ All in one organized platform.
 - SQL Server Database
 
 ### Database Schema
-Mermaid
-ER Diagram
-    PODCAST ||--o{ EPISODE : "1-to-Many"
-    EPISODE }|--|| GUEST : "Many-to-Many"
+
+### 🗃️ Database Structure
+- **1-to-Many Relationship**: Podcasts → Episodes
+- **Many-to-Many Relationship**: Episodes ↔ Guests
+  
     PODCAST {
         int Id PK
         string Title
