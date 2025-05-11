@@ -68,3 +68,9 @@ All in one organized platform.
         int EpisodeId FK
         int GuestId FK
     }
+
+ ### These are the key dependencies:
+
+Microsoft.EntityFrameWorkCore
+Microsoft.EntityFrameWorkCore.Tools
+Microsoft.EntityFrameWorkCore.SqlServer
